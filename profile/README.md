@@ -43,9 +43,10 @@ Our solution leverages Stellar’s low fees and fast settlement times along with
 
 ```mermaid
 graph LR
-    A[Frontend UI<br/>(React/Vue/Angular)] --> B[Backend API<br/>(Node.js/Python)]
-    B --> C[Stellar Blockchain<br/>(Horizon & Soroban RPC)]
-    C --> D[Smart Contracts<br/>(Rust, Soroban)]
+    A["Frontend UI (Nextjs + Typescript + Tailwind)"] --> B["Backend API (NodeJS + Prisma + Postgres)"]
+    B --> C["Stellar Blockchain (Horizon & Soroban RPC)"]
+    C --> D["Smart Contracts (Rust, Soroban)"]
+
 ```
 
 ## Roadmap
